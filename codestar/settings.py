@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-joemburu-codestar-g3masjju0w4.ws.codeinstitute-ide.net','.herokuapp.com', 'localhost']
 
@@ -55,9 +55,7 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',    
     'django_summernote',
     'blog',
-    'about',
-   
-    
+    'about',    
 ]
 
 SITE_ID = 1
